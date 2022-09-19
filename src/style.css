@@ -7,3 +7,84 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*Design for app wrapper*/
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+}
+
+/*Design for Nav bar*/
+.nav-bar {
+    border: 2px solid red;
+    height: 100vh;
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 80px auto 60px auto;
+}
+
+.name {
+    color: green;
+    font-weight: bold;
+}
+
+.my-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;   
+}
+
+.nav-items {
+    width: 100%;
+    height: auto;
+}
+
+.nav-items ul {
+    margin-left: 50px;
+}
+
+.nav-items ul li {
+   padding: 5px;
+   text-decoration: none;
+   list-style: none;
+   cursor: pointer;
+}
+
+.nav-items li a  {
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.nav-items li a:hover  {
+    color: green;
+}
+
+.li-icon {
+    margin-right: 5px;
+}
+
+/*Design for Main content*/
+.main-content {
+    border: 2px solid blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 50px;
+    padding: auto 10px auto 10px;
+}
+
+/*Design for Left side bar*/
+.left-side-bar {
+    border: 2px solid red;
+    height: 100vh;
+}
