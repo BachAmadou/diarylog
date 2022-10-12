@@ -7,26 +7,26 @@ import Courses from './components/Courses';
 import Grades from './components/Grades';
 import Schedule from './components/Schedule';
 import Community from './components/Community';
-import { Routes, Route } from 'react-router';
-
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import Test from './components/Test';
 
 function App() {
   return (
-  
-    <div className="app-wrapper">
-        <Navbar />
-        {/* <MainContent /> */}
-        <Routes>
-            <Route path='/' element={<Home />} />
+    <>
+    <div className="app-wrapper"> 
+        {/* <Test /> */}
+        <Navbar /> 
+        <Routes> 
+            {/* <Route path='/home' element={<Home />} /> */}
             <Route path='/courses' element={<Courses />} />
             <Route path='/grades' element={<Grades />} />
             <Route path='/schedule' element={<Schedule />} />
-            <Route path='/community' element={<Community />} />
+            <Route path='/community' element={<Community />} />  
+            <Route path='/' element={<Home />} />        
         </Routes>
-        {/* <MainContent /> */}
-        <LeftSideBar />
+         <LeftSideBar />
     </div>
-    
+    </>
   );
 }
 
