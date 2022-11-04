@@ -1,3 +1,4 @@
+import React from 'react';
 import './style.css';
 import LeftSideBar from './components/LeftSideBar';
 import Navbar from './components/Navbar';
@@ -8,9 +9,10 @@ import Grades from './components/Grades';
 import Schedule from './components/Schedule';
 import Community from './components/Community';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import Test from './components/Test';
+
 
 function App() {
+
   return (
     <>
     <div className="app-wrapper"> 
