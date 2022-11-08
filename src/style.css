@@ -57,7 +57,7 @@ body {
 .nav-items li a  {
     font-size: 20px;
     text-decoration: none;
-    color:#00203fff;
+    color:#0e2a47;
 }
 
 .nav-items li a:hover  {
@@ -76,7 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #00203fff;
+    background-color: #0e2a47;
 }
 
 .main-title {
@@ -84,11 +84,15 @@ body {
     padding: auto 10px auto 10px;
 }
 
-/*Design for Left side bar*/
-.left-side-bar {
+/*Design for right side bar*/
+.right-side-bar {
     height: 100vh;
-    color: #00203fff;
+    color: #0e2a47;
     background-color: #adefd1ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Design for courses page*/
@@ -98,7 +102,7 @@ body {
 
 .courses h2 {
     margin: 60px auto 60px auto;
-    color: #00203fff;
+    color: #0e2a47;
 }
 
 .courses-content {
@@ -118,7 +122,7 @@ body {
     height: 20px;
     padding: 10px;
     border-radius: 15px;
-    color: #00203fff ;
+    color: #0e2a47 ;
 }
 
 .course-options {
@@ -141,5 +145,52 @@ body {
     cursor: pointer;
     font-size: 20px;
     color: #adefd1ff;
-    background-color: #00203fff;
+    background-color: #0e2a47;
+}
+
+
+/*Design for commynity page*/
+.community-title {
+    text-align: center;
+    margin-top: 30px;
+    color:  #0e2a47
+}
+
+.form {
+    text-align: center;
+}
+
+.form ul {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prof-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.user-name {
+    font-size: 20px;
+}
+
+.btn-form {
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: -80px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #0e2a47;
+}
+
+.btn-form:hover {
+    background-color: #adefd1ff;
+    color: #00203fff;
 }

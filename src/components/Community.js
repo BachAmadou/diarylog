@@ -21,7 +21,7 @@ export default function Community() {
          
     return(
         <div>
-            <h2>Other members of the community</h2>
+            <h2 className="community-title">Other members of the community</h2>
             <div className="form">
                 <ul>
                     {/* {user.map(member => {
@@ -35,8 +35,8 @@ export default function Community() {
                     })} */}
 
                     {/* if user.picture is present then show me the image tag or image */}
-                    { user.picture && <img src={user.picture.thumbnail} alt="user" /> } 
-                    {user.name && user.name.first}
+                    { user.picture && <img src={user.picture.large} alt="user" className="prof-pic" /> } 
+                    <p className="user-name">{user.name && user.name.first}</p>
                     
                 </ul>
                 <button className="btn-form" onClick={getUser}>Search members</button>
