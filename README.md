@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## All the APIs used for this app
+- https://randomuser.me/api/
+
+
 ## Available Scripts
 
 In the project directory, you can run:

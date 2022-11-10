@@ -12,6 +12,7 @@ import Tourism from './components/Tourism';
 import Cocktail from './components/Cocktail';
 import Game from './components/Game';
 import Gallery from './components/Gallery';
+import axios from 'axios';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
 
