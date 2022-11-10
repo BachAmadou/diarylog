@@ -192,5 +192,34 @@ body {
 
 .btn-form:hover {
     background-color: #adefd1ff;
-    color: #00203fff;
+    color: #0e2a47;;
+}
+
+/*Design for Game page*/
+/* .poke-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+} */
+
+.game-title {
+    text-align: center;
+    color: #0e2a47;
+    margin-top: 30px;
+}
+
+.poke-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.items {
+    margin-bottom: 10px;
+    width: 30%;
+    height: auto;
 }

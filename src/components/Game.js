@@ -27,13 +27,14 @@ export default function Game() {
     return(
         <div className="game">
             <h2 className="game-title">Check your favorite Pokemon</h2>
-            <ul>
+            <ul className="poke-items">
                 {pokemon.map((poke) => {
                     return (
                         <>
-                            <div key={poke.id}>
+                            <div key={poke.id} className="items">
                                 <p>{poke.name}</p>
-                                <img src={poke.sprites.front_default} alt="" />
+                                <p>{poke.url}</p>
+                                {/* <img src={poke.sprites.front_default} alt="" /> */}
                             </div>
                         </>
                     )
