@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## All the APIs used for this app
 - https://randomuser.me/api/ (in community component)
 - https://pokeapi.co/api/v2/pokemon/ (in game component)
+- https://www.thecocktaildb.com/api/json/v1/1/random.php (in Cocktail componentg)
 
 ## Available Scripts
 
